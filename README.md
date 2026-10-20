@@ -13,9 +13,6 @@ Todo se ejecuta en el navegador de quien la usa (R compilado a WebAssembly).
 Las facturas no se suben a ningún servidor. El servidor solo entrega archivos
 estáticos. Las fuentes van incluidas en la app, sin llamadas a Google Fonts.
 
-**No subas nunca facturas a este repositorio.** `.gitignore` excluye `*.pdf`,
-`*.zip`, `*.json` y `tests/out/`.
-
 ## Cómo funciona
 
 - `app/www/pdftext.js`: extrae el texto de los PDF con pdf.js y abre los ZIP
@@ -31,7 +28,7 @@ estáticos. Las fuentes van incluidas en la app, sin llamadas a Google Fonts.
 
 El exceso suma las diferencias de todos los meses, también las negativas.
 Equivale a comparar el fijo total del periodo con el admisible para todo el
-consumo del periodo, que es el cálculo de la demanda de referencia.
+consumo del periodo.
 
 ## Desarrollo
 
