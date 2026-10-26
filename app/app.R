@@ -46,7 +46,7 @@ ui <- fluidPage(
         tags$input(id = "pdf_files", type = "file", multiple = NA, accept = ".pdf,.PDF,.zip,application/pdf,application/zip"),
         span(id = "extract_status", class = "status")
       ),
-      p(class = "hint", "Sirve para facturas de calor y frío o solo de calor, en castellano o en catalán, desde 2020. Cuantos más meses subas, más fiable es el resultado.")
+      p(class = "hint", "Sirve para facturas de calor y frío o solo de calor, en castellano o en catalán, desde 2020. Puedes subir de una vez todas las facturas que quieras.")
     ),
     uiOutput("results"),
     div(class = "foot",
